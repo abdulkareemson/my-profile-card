@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Profile Card</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <article data-testid="test-profile-card" class="profile-card">
+        <figure class="avatar">
+          <img
+            src="https://ca.slack-edge.com/T09AMR8A9C3-U09LM2NDU4A-876bdbb85e42-512"
+            alt="Profile picture of Sadiq Abdulkareem"
+            data-testid="test-user-avatar"
+          />
+        </figure>
+
+        <header>
+          <h2 data-testid="test-user-name">Sadiq Abdulkareem</h2>
+          <p data-testid="test-user-bio">
+            Frontend Developer Intern @HNGi13 — passionate about building
+            user-friendly web experiences.
+          </p>
+        </header>
+
+        <section class="time-section">
+          <p>
+            Current time (ms):
+            <span data-testid="test-user-time" id="test-user-time"></span>
+          </p>
+        </section>
+
+        <nav data-testid="test-user-social-links" class="social-links">
+          <a
+            href="https://x.com/abdulkareemson"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-testid="test-user-social-twitter"
+            >Twitter</a
+          >
+
+          <a
+            href="https://github.com/abdulkareemson"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-testid="test-user-social-github"
+            >GitHub</a
+          >
+
+          <a
+            href="https://linkedin.com/in/abdulkareemson"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-testid="test-user-social-linkedin"
+            >LinkedIn</a
+          >
+        </nav>
+
+        <section class="lists">
+          <div>
+            <h3>Hobbies</h3>
+            <ul data-testid="test-user-hobbies">
+              <li>Coding</li>
+              <li>Reading</li>
+              <li>Designing</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>Dislikes</h3>
+            <ul data-testid="test-user-dislikes">
+              <li>Procrastination</li>
+              <li>Messy code</li>
+              <li>Broken UI</li>
+            </ul>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

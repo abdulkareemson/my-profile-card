@@ -13,6 +13,7 @@ body {
   background: linear-gradient(135deg, #ff9a8b, #ff6a88, #d36aff);
   background-size: 400% 400%;
   animation: gradientShift 12s ease infinite;
+  padding: 1.5rem 1rem;
 }
 
 @keyframes gradientShift {
@@ -155,6 +156,9 @@ header p {
 
 /* ---------- Responsive (Mobile) ---------- */
 @media (max-width: 600px) {
+  body {
+    align-items: flex-start;
+  }
   .profile-card {
     width: 90%;
     padding: 1.6rem 1rem;

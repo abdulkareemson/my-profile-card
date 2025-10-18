@@ -5,42 +5,43 @@ The goal is to build a simple, accessible, and responsive profile card using HTM
 
 It includes all the required `data-testid` attributes for automated testing.
 
- Features:
+Features:
 
- Semantic HTML structure
- Responsive design for mobile and desktop
- Displays the current time in milliseconds using `Date.now()`
- Accessible avatar image with alt text
- Social links that open in new tabs
+Semantic HTML structure
+Responsive design for mobile and desktop
+Displays the current time in milliseconds using `Date.now()`
+Accessible avatar image with alt text
+Social links that open in new tabs
 
- Data Test IDs:
+Data Test IDs:
 
 Each section includes the required test IDs
 
- `test-profile-card`
- `test-user-name`
- `test-user-bio`
- `test-user-time`
- `test-user-avatar`
- `test-user-social-links`
- `test-user-hobbies`
- `test-user-dislikes`
+`test-profile-card`
+`test-user-name`
+`test-user-bio`
+`test-user-time`
+`test-user-avatar`
+`test-user-social-links`
+`test-user-hobbies`
+`test-user-dislikes`
 
- How to Run Locally
+How to Run Locally
 
 1. Clone this repository:
 
    ```bash
    git clone https://github.com/abdulkareemson/my-profile-card.git
    ```
+
 2. Open the project folder in VS Code or any code editor.
 3. Open `index.html` in your browser.
 
- Live Demo
+Live Demo
 
-[View on Netlify]() (add your deployed link here)
+View on Netlify - https://sadiq-profile.netlify.app/
 
- Author
+Author
 
 Sadiq Abdulkareem
 Frontend Track – HNGi13

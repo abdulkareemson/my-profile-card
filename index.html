@@ -4,43 +4,48 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Profile Card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <main>
-      <article data-testid="test-profile-card" class="profile-card">
+      <article class="profile-card" data-testid="test-profile-card">
         <figure class="avatar">
           <img
             src="https://ca.slack-edge.com/T09AMR8A9C3-U09LM2NDU4A-876bdbb85e42-512"
-            alt="Profile picture of Sadiq Abdulkareem"
+            alt="Profile photo of Sadiq"
             data-testid="test-user-avatar"
           />
         </figure>
 
         <header>
-          <h2 data-testid="test-user-name">Sadiq Abdulkareem</h2>
+          <h2 data-testid="test-user-name">ABDULKAREEM SADIQ</h2>
           <p data-testid="test-user-bio">
-            Frontend Developer Intern @HNGi13 — passionate about building
-            user-friendly web experiences.
+            Aspiring frontend engineer learning by building. Passionate about
+            growth, collaboration, and delivering polished user experiences.
           </p>
         </header>
 
         <section class="time-section">
           <p>
-            Current time (ms):
-            <span data-testid="test-user-time" id="test-user-time"></span>
+            Current Time (ms):
+            <span data-testid="test-user-time" id="time-display"></span>
           </p>
         </section>
 
-        <nav data-testid="test-user-social-links" class="social-links">
+        <nav class="social-links" data-testid="test-user-social-links">
           <a
-            href="https://x.com/abdulkareemson"
+            href="https://twitter.com/abdulkareemson"
             target="_blank"
             rel="noopener noreferrer"
             data-testid="test-user-social-twitter"
             >Twitter</a
           >
-
           <a
             href="https://github.com/abdulkareemson"
             target="_blank"
@@ -48,7 +53,6 @@
             data-testid="test-user-social-github"
             >GitHub</a
           >
-
           <a
             href="https://linkedin.com/in/abdulkareemson"
             target="_blank"
@@ -58,28 +62,29 @@
           >
         </nav>
 
-        <section class="lists">
-          <div>
+        <div class="lists">
+          <section data-testid="test-user-hobbies">
             <h3>Hobbies</h3>
-            <ul data-testid="test-user-hobbies">
-              <li>Coding</li>
-              <li>Reading</li>
-              <li>Designing</li>
+            <ul>
+              <li>Building interactive UIs</li>
+              <li>Exploring new web tools</li>
+              <li>Reading tech blogs</li>
+              <li>Watching UI/UX breakdowns</li>
             </ul>
-          </div>
+          </section>
 
-          <div>
+          <section data-testid="test-user-dislikes">
             <h3>Dislikes</h3>
-            <ul data-testid="test-user-dislikes">
-              <li>Procrastination</li>
-              <li>Messy code</li>
-              <li>Broken UI</li>
+            <ul>
+              <li>Cluttered design</li>
+              <li>Unclear documentation</li>
+              <li>Broken layouts</li>
+              <li>Poor accessibility</li>
             </ul>
-          </div>
-        </section>
+          </section>
+        </div>
       </article>
     </main>
-
     <script src="script.js"></script>
   </body>
 </html>

@@ -1,5 +1,5 @@
 // Select the time element and update to milliseconds
-const timeElement = document.getElementById("test-user-time");
+const timeElement = document.getElementById("time-display");
 
 function updateTime() {
   timeElement.textContent = Date.now();
